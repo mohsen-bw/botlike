@@ -1,6 +1,7 @@
-BOT AUTOLIKE BY Alish Joker
+Official Account : https://line.me/R/ti/p/%40nlr3381q
 
-1x Login = 100 Like ( Ubah Pengaturan Timeline dengan cara menghilangkan ceklis pada Post Populer terlebih dahulu. )
+ALISH JOKER 
 
+ALI AHMADI 
 
-** Created By Alish Joker 
+caspian™ Admin Alish

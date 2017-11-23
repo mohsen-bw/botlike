@@ -29,9 +29,9 @@ wait = {
     'leaveRoom':True,
     'timeline':True,
     'autoAdd':True,
-    'message':"Salam Be Freindam Khosh Omadi Auto Like By Alish Joker Bot ",
+    'message':"Thanks for add me",
     "lang":"JP",
-    "comment":"Salam Be Freindam Khosh Omadi Auto Like By Alish Joker Bot",
+    "comment":"Thanks for add me",
     "commentOn":False,
     "commentBlack":{},
     "wblack":False,
@@ -66,42 +66,34 @@ def sendMessage(to, text, contentMetadata={}, contentType=0):
 
 #---------------------------[AutoLike-nya]---------------------------#
 def autolike():
+     for zx in range(0,500):
+        hasil = cl.activity(limit=500)
+        if hasil['result']['posts'][zx]['postInfo']['liked'] == False:
+          try:    
+            #-----------------------------[JANGAN DIEDIT - Hargai Saya]-----------------------------#
+            						cl.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
+            						
+            						
 
-			for zx in range(0,20):
-
-				hasil = cl.activity(limit=20)
-
-				if hasil['result']['posts'][zx]['postInfo']['liked'] == False:
-
-					try: 
-
-						cl.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-
-						cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like By Bot  line.me/ti/p/~joker.alish")
+						cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like By Bot  line.me/ti/p/~joker.alish | official account = https://line.me/R/ti/p/%40nlr3381q")
+            						
+            						
 
 						kk.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
+            						
+            						
 
-						kk.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"ALISH JOKER")
+						kk.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Like Bot : Official https://line.me/R/ti/p/%40nlr3381q")
 
-						print "DiLike"
-
-					except:
-
-							pass
-
-				else:
-
-						print "Sudah DiLike"
-
-			time.sleep(500)
-
+            print "Like"
+          except:
+            pass
+        else:
+            print "Already Liked"
+     time.sleep(500)
 thread2 = threading.Thread(target=autolike)
-
 thread2.daemon = True
-
 thread2.start()
-
-
 #---------------------------[AutoLike-nya]---------------------------#
 
 def NOTIFIED_READ_MESSAGE(op):
