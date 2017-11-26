@@ -29,9 +29,9 @@ wait = {
     'leaveRoom':True,
     'timeline':True,
     'autoAdd':True,
-    'message':"Salam Be friend Khosh Omadi Auto Like By Alish Joker Bot https://line.me/R/ti/p/%40nlr3381q ",
+    'message':"Support By http://line.me/ti/p/~joker.alish ",
     "lang":"JP",
-    "comment":"Salam Be Freindam Khosh Omadi Auto Like By Alish Joker Bot https://line.me/R/ti/p/%40nlr3381q ",
+    "comment":"Support By http://line.me/ti/p/~joker.alish ",
     "commentOn":False,
     "commentBlack":{},
     "wblack":False,
@@ -81,7 +81,7 @@ def autolike():
 
 						kk.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
 
-						kk.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Dr.android https://line.me/R/ti/p/%40nlr3381q")
+						kk.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"free line Theme : freetimeine.mihanblog.com | Channel : t.me/alihack011 | Tlg Id : T.me/alish_joker")
 
 						print "DiLike"
 
