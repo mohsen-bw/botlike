@@ -1,6 +1,5 @@
-BOT AUTOLIKE BY MKHADAFFY
+یه باز لوگین شدن 
 
-1x Login = 100 Like ( Ubah Pengaturan Timeline dengan cara menghilangkan ceklis pada Post Populer terlebih dahulu. )
+۱۰۰ پست لایک 
 
-
-** Created By MKHADAFFY
+auto Like By t.me/line_theme
