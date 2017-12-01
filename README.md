@@ -1,7 +1,6 @@
-Official Account : https://line.me/R/ti/p/%40nlr3381q
+BOT AUTOLIKE BY MKHADAFFY
 
-ALISH JOKER 
+1x Login = 100 Like ( Ubah Pengaturan Timeline dengan cara menghilangkan ceklis pada Post Populer terlebih dahulu. )
 
-ALI AHMADI 
 
-caspian™ Admin Alish
+** Created By MKHADAFFY

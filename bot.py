@@ -29,9 +29,9 @@ wait = {
     'leaveRoom':True,
     'timeline':True,
     'autoAdd':True,
-    'message':"Support By http://line.me/ti/p/~joker.alish ",
+    'message':"creator Auto Like By Alish Joker ",
     "lang":"JP",
-    "comment":"Support By http://line.me/ti/p/~joker.alish ",
+    "comment":"creator Auto Like By Alish Joker",
     "commentOn":False,
     "commentBlack":{},
     "wblack":False,
@@ -77,11 +77,22 @@ def autolike():
 
 						cl.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
 
-						cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like By Alish Joker Bot line.me/ti/p/~joker.alish")
+						cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like By 
+       Alish Joker 
+ID : joker.alish 
+          line.me/ti/p/~joker.alish
+     Id Auto Like Bot : http://line.me/ti/p/~alish.like
+
+http://line.me/ti/p/~alish.like1
+")
 
 						kk.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
 
-						kk.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"free line Theme : freetimeine.mihanblog.com | Channel : t.me/alihack011 | Tlg Id : T.me/alish_joker")
+						kk.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Line Theme Channel : T.me/line_theme")
+
+						dd.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
+
+						dd.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"auto Like By : freetimeine.mihanblog.com")
 
 						print "DiLike"
 
